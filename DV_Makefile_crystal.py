@@ -5,6 +5,7 @@ import numpy as np
 import re
 import periodic_table
 
+##test
 cfg = "B10O21Pb6.xyz"
 #cfg = "mp-1192421_B2Pb2O5.xyz"
 xyz = (np.genfromtxt(cfg,skip_header=2,usecols=(1,2,3)))
